@@ -1,0 +1,42 @@
+.table-wrapper {
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+    border: 1px solid #e3e3e3;
+    transition: box-shadow 0.3s ease;
+    overflow-x: auto;
+}
+
+.table-wrapper:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 24px;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.p-datatable-scrollable-wrapper {
+    overflow-x: auto;
+}
+
+.p-datatable-scrollable-table {
+    min-width: 1000px;
+}
+
+
+.table-wrapper::-webkit-scrollbar {
+    height: 8px;
+}
+
+.table-wrapper::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
